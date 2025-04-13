@@ -10,13 +10,13 @@ To address this, we propose a novel model inspired by gene evolution. It decompo
 We propose a novel learning paradigm that shifts the focus from direct mapping to discovering the evolution chain of future data. This approach, termed "Decomposition to Search to Combination" (DSC), is illustrated in Fig. \ref{fig:n1}(b) and is inspired by genetic evolution, as shown in Fig. \ref{fig:n1}(a). Specifically, given historical data, our approach explores the range of feasible future data and selects the best forecasting result from these possibilities. This method emphasizes understanding the evolutionary pathways of future data rather than merely mapping from past to future.
 
 
-![image](fig/GSF.png)
+![image](figures/GSF.png)
 
 
 Our approach starts by decomposing historical data into subsequences (genes) to create a gene population. Then, these genes are analyzed to select the optimal ones with strong statistical characteristics. These selected genes are combined based on their temporal relationships to form multiple evolutionary chains. We introduce the Gene evolution tree (GET) to facilitate this search and combination process, producing a Gene sequence bank (GSB) with numerous reliable gene sequences (GSs). Additionally, guided by the concept of natural selection, this paper introduces a method to filter GSs in GSB and obtain the protagonist gene sequence (PGS) that is as close to the true value as possible. Therefore, in this paper, we term the entire methodology as gene selection forecasting (GSF). The GSF not only demonstrates good prediction performance on limited training data, but also offers interpretability.
 
 
-![image](fig/GSF_structure.png)
+![image](figures/GSF_structure.png)
 
 
 
@@ -25,10 +25,10 @@ Our approach starts by decomposing historical data into subsequences (genes) to 
 
 Our GSF achieves the consistent SOTA performance on time series forecasting tasks with better efficiency.
 
-![image](fig/GSF_Ex1.png)
+![image](figures/GSF_Ex1.png)
 
 
-![image](fig/GSF_Ex2.png)
+![image](figures/GSF_Ex2.png)
 
 
 ## Get Started
