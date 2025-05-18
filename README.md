@@ -44,7 +44,7 @@ pip install -r requirements.txt
 We provide the limited time seires forecasting tasks and experiment scripts can be found under the file 'Ex1.ipynb'. To run the code on Ex1, just run the following command:
 
 ```
-cd ./MetaTCN/Ex1.ipynb
+cd ./Ex1.ipynb
 ```
 
 4. few-shot time seires forecasting tasks.
@@ -52,7 +52,7 @@ cd ./MetaTCN/Ex1.ipynb
 We provide the few-shot forecasting experiment  and experiment scripts can be found under the folder `Ex2.ipynb`. Please run the following command:
 
 ```
-cd ./MetaTCN/Ex2.ipynb
+cd ./Ex2.ipynb
 ```
 
 5. convtional time seires forecasting tasks.
@@ -60,7 +60,7 @@ cd ./MetaTCN/Ex2.ipynb
 We provide the convtional experiment and experiment scripts can be found under the folder `Ex3.ipynb`. To run the code on ETTh2, just run the following command:
 
 ```
-cd ./MetaTCN/Ex3.ipynb
+cd ./Ex3.ipynb
 ```
 
 ## Acknowledgement
