@@ -33,7 +33,7 @@ Our GSF achieves the consistent SOTA performance on time series forecasting task
 
 ## Get Started
 
-1. Install Python 3.7 and necessary dependencies. Note that：Thank you for your patience and understanding. During the initial review stage, we chose not to upload the `GSF.py` file out of careful consideration for research integrity and academic achievement protection. As this study represents a significant amount of effort and innovative work from our team, we prefer to make the code public only after the paper has been accepted, in order to follow academic norms and safeguard the integrity of our research results.
+1. Install Python 3.7 and necessary dependencies. 
 ```
 pip install -r requirements.txt
 ```
